@@ -1,10 +1,9 @@
-body{
+body {
     color: #40514e;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
-
 
 hr{
     border: dotted #EAF6F6 6px;
@@ -12,21 +11,22 @@ hr{
     width: 4%;
     margin: 100px auto;
 }
-p{
+
+p {
     line-height: 2;
 }
 
-a{
+a {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: #EAF6F6
 }
-h1{
+h1 {
     color: #66BFBF;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -35,7 +35,7 @@ h1{
     
 }
 
-h2{
+h2 {
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -45,74 +45,77 @@ h3{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
-.pro{
+.pro {
     text-decoration: underline;
 }
 
-.my-img{
+.my-img {
     block-size: 200px;
 }
 
-.intro{
+.intro {
     width: 30%;
     margin: auto;
 }
-.top-container{
+
+.top-container {
     background-color: #e4f9f5;
     position: relative;
     padding-top: 100px;
 }
 
-.middle-container{
+.middle-container {
     margin: 100px 0;
 }
 
-.bottom-container{
+.bottom-container {
     background-color: #66BFBF;
     padding: 50px 0 20px;
     
 
 }
 
-.top-cloud{
+.top-cloud {
     position: absolute;
     right: 300px;
     top: 40px;
 }
 
-.bottom-cloud{
+.bottom-cloud {
     position: absolute;
     left: 250px;
     bottom: 300px;
 
 }
 
-.skill-row{
+.skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
 }
-.team-img{
-    width: 25%;
+.team-img {
+    /*width: 25%;*/
+    block-size: 200px;
     float: left;
     margin-right: 30px;
     margin: 0 30px 30px 0;
 
 }
-.computer-img{
-    width: 25%;
+.computer-img {
+    /*width: 25%;*/
+    block-size: 200px;
     float: right;
     margin-left: 30px;
     margin: 0 0 30px 30px;
 
 }
 
-.contact-message{
+.contact-message {
     width: 40%;
     margin: 40px auto 60px;
 }
 
-.copyright-message{
+.copyright-message {
     color:  #EAF6F6;
     font-size: 0.75rem;
     padding: 20px 0;
